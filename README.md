@@ -1,19 +1,63 @@
 void setup()
 {
-  size(500,340);
+  size(500, 340);
 }
 void draw()
 {
- fill(170,120,95);
- ellipse(175,40,60,60);
- ellipse(325,40,60,60);
- fill(255,180,160);
- ellipse(180,49,30,30);
- ellipse(320,49,30,30);
- fill(170,120,95);
- ellipse(250,260,335,460);
- fill(255,255,255);
- arc(250,235,140,140,PI,PI/0.5);
+ int darkBrownR = 185;
+ int darkBrownG = 125;
+ int darkBrownB = 65;
+ int lightBrownR = 195;
+ int lightBrownG = 120;
+ int lightBrownB = 35;
+ strokeWeight(3);
+ fill(darkBrownR, darkBrownG, darkBrownB);
+ ellipse(175, 40, 60, 60);//left ear
+ ellipse(325, 40, 60, 60);//right ear
+ fill(255, 180, 160);
+ ellipse(180, 49, 31, 31);//left ear middle
+ ellipse(320, 49, 31, 31);//right ear middle
+ fill(darkBrownR, darkBrownG, darkBrownB);
+ ellipse(100, 205, 135, 110);//left arm
+ ellipse(400, 205, 135, 110);//right arm
+ line(32.5, 205, 62.5, 205);//middle left arm line
+ line(36, 190, 62.5, 190);//top left arm line
+ line(36, 220, 62.5, 220);//bottom left arm line
+ line(467.5, 205, 437.5, 205);//middle right arm line
+ line(464, 190, 437.5, 190);//top right arm line
+ line(464, 220, 437.5, 220);//bottom right arm line
+ strokeWeight(5);
+ ellipse(250, 260, 335, 460);//body
+ fill(lightBrownR, lightBrownG, lightBrownB);
+ strokeWeight(3);
+ ellipse(250, 220, 215, 145);//around mouth
+ fill(255, 255, 255);
+ fill(0, 0, 0);
+ ellipse(250, 153, 75, 50);//nose
+ fill(255, 255, 255);
+ ellipse(250, 140, 48, 21);//upper nose
+ fill(255, 255, 255);
+ arc(250, 265, 140, 140, PI, PI/0.5);//mouth outline
+ line(180 , 265, 320, 265);//top mouth line
+ line(186, 240, 314, 240);//bottom mouth line
+ strokeWeight(5);
+ fill(darkBrownR, darkBrownG, darkBrownB);
+ ellipse(130, 360, 120, 185);//left foot
+ ellipse(370, 360, 120, 185);//right foot
+ strokeWeight(3);
+ fill(lightBrownR, lightBrownG, lightBrownB);
+ ellipse(130, 380, 90, 175);//left foot inside
+ ellipse(370, 380, 90, 175);//right foot inside
+ fill(255, 255, 255);
+ arc(210, 105, 45, 45, 0, PI);//left eye white
+ arc(290, 105, 45, 45, 0, PI);//right eye white
+ line(187.5, 105, 232.5, 105);//top left eye line
+ line(267.5, 105, 312.5, 105);//top right eye line
+ fill(0, 0, 0);
+ rect(192.5, 91, 35, 6);// left eyebrow
+ rect(272.5, 91, 35, 6);//right eyebrow
+ ellipse(223, 108, 4, 4);//left eyeball
+ ellipse(277, 108, 4, 4);//right eyeball
 }
 
 
