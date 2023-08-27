@@ -18,6 +18,14 @@ void draw()
  ellipse(180, 49, 31, 31);//left ear middle
  ellipse(320, 49, 31, 31);//right ear middle
  fill(darkBrownR, darkBrownG, darkBrownB);
+ ellipse(100, 205, 135, 110);//left arm
+ ellipse(400, 205, 135, 110);//right arm
+ line(32.5, 205, 62.5, 205);//middle left arm line
+ line(36, 190, 62.5, 190);//top left arm line
+ line(36, 220, 62.5, 220);//bottom left arm line
+ line(467.5, 205, 437.5, 205);//middle right arm line
+ line(464, 190, 437.5, 190);//top right arm line
+ line(464, 220, 437.5, 220);//bottom right arm line
  strokeWeight(5);
  ellipse(250, 260, 335, 460);//body
  fill(lightBrownR, lightBrownG, lightBrownB);
@@ -51,9 +59,6 @@ void draw()
  ellipse(213, 114, 4, 4);//left eyeball
  ellipse(287, 114, 4, 4);//right eyeball
 }
-
-
-
 
 
 
