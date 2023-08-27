@@ -48,7 +48,7 @@ void draw()
  fill(0, 0, 0);
  rect(192.5, 91, 35, 6);// left eyebrow
  rect(272.5, 91, 35, 6);//right eyebrow
- ellipse(223, 108, 4, 4);//left eyeball
- ellipse(277, 108, 4, 4);//right eyeball
+ ellipse(213, 114, 4, 4);//left eyeball
+ ellipse(287, 114, 4, 4);//right eyeball
 }
 
